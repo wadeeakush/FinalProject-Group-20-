@@ -78,6 +78,7 @@
     <Content Include="Lion15.aspx" />
     <Content Include="Lion16.aspx" />
     <Content Include="Lion17.aspx" />
+    <Content Include="Lion18.aspx" />
     <Content Include="Lion2.aspx" />
     <Content Include="Lion3.aspx" />
     <Content Include="Lion4.aspx" />
@@ -161,9 +162,17 @@
     </Compile>
     <Compile Include="Lion17.aspx.cs">
       <DependentUpon>Lion17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Lion17.aspx.designer.cs">
       <DependentUpon>Lion17.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lion18.aspx.cs">
+      <DependentUpon>Lion18.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lion18.aspx.designer.cs">
+      <DependentUpon>Lion18.aspx</DependentUpon>
     </Compile>
     <Compile Include="Lion2.aspx.cs">
       <DependentUpon>Lion2.aspx</DependentUpon>
