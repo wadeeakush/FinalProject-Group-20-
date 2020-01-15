@@ -70,6 +70,7 @@
     <Content Include="AdminPage.aspx" />
     <Content Include="KidsPage.aspx" />
     <Content Include="Lion1.aspx" />
+    <Content Include="Lion10.aspx" />
     <Content Include="Lion2.aspx" />
     <Content Include="Lion3.aspx" />
     <Content Include="Lion4.aspx" />
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="Lion1.aspx.designer.cs">
       <DependentUpon>Lion1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lion10.aspx.cs">
+      <DependentUpon>Lion10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lion10.aspx.designer.cs">
+      <DependentUpon>Lion10.aspx</DependentUpon>
     </Compile>
     <Compile Include="Lion2.aspx.cs">
       <DependentUpon>Lion2.aspx</DependentUpon>
