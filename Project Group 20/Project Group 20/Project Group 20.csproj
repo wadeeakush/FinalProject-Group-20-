@@ -72,6 +72,7 @@
     <Content Include="Lion1.aspx" />
     <Content Include="Lion2.aspx" />
     <Content Include="Lion3.aspx" />
+    <Content Include="Lion4.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="Lion3.aspx.designer.cs">
       <DependentUpon>Lion3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lion4.aspx.cs">
+      <DependentUpon>Lion4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lion4.aspx.designer.cs">
+      <DependentUpon>Lion4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
