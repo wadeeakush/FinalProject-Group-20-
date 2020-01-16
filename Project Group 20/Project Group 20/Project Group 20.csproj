@@ -97,6 +97,8 @@
     <Content Include="Lion9.aspx" />
     <Content Include="LogInAdmin.aspx" />
     <Content Include="LogInKid.aspx" />
+    <Content Include="LogInPage.aspx" />
+    <Content Include="LogInParent.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -302,6 +304,20 @@
     </Compile>
     <Compile Include="LogInKid.aspx.designer.cs">
       <DependentUpon>LogInKid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInPage.aspx.cs">
+      <DependentUpon>LogInPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInPage.aspx.designer.cs">
+      <DependentUpon>LogInPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInParent.aspx.cs">
+      <DependentUpon>LogInParent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInParent.aspx.designer.cs">
+      <DependentUpon>LogInParent.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
