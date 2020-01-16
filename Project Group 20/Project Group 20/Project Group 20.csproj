@@ -70,6 +70,7 @@
     <Content Include="AboutUsPage.aspx" />
     <Content Include="AdminPage.aspx" />
     <Content Include="ContactUsPage.aspx" />
+    <Content Include="dys.jpg" />
     <Content Include="KidsPage.aspx" />
     <Content Include="Lion1.aspx" />
     <Content Include="Lion10.aspx" />
@@ -94,6 +95,7 @@
     <Content Include="Lion7.aspx" />
     <Content Include="Lion8.aspx" />
     <Content Include="Lion9.aspx" />
+    <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
