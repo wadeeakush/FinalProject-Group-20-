@@ -99,6 +99,7 @@
     <Content Include="LogInKid.aspx" />
     <Content Include="LogInPage.aspx" />
     <Content Include="LogInParent.aspx" />
+    <Content Include="MainPage.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -318,6 +319,13 @@
     </Compile>
     <Compile Include="LogInParent.aspx.designer.cs">
       <DependentUpon>LogInParent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
