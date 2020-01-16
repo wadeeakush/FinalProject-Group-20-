@@ -101,6 +101,7 @@
     <Content Include="LogInParent.aspx" />
     <Content Include="MainPage.aspx" />
     <Content Include="ParentsPage.aspx" />
+    <Content Include="RPKids.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -336,6 +337,13 @@
       <DependentUpon>ParentsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPKids.aspx.cs">
+      <DependentUpon>RPKids.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RPKids.aspx.designer.cs">
+      <DependentUpon>RPKids.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
