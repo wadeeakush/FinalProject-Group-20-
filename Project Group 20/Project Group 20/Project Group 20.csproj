@@ -102,6 +102,7 @@
     <Content Include="MainPage.aspx" />
     <Content Include="ParentsPage.aspx" />
     <Content Include="RPKids.aspx" />
+    <Content Include="RPParents.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -343,6 +344,13 @@
     </Compile>
     <Compile Include="RPKids.aspx.designer.cs">
       <DependentUpon>RPKids.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RPParents.aspx.cs">
+      <DependentUpon>RPParents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RPParents.aspx.designer.cs">
+      <DependentUpon>RPParents.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
