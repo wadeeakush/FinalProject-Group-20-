@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AboutUsPage.aspx" />
     <Content Include="AdminPage.aspx" />
+    <Content Include="ContactUsPage.aspx" />
     <Content Include="KidsPage.aspx" />
     <Content Include="Lion1.aspx" />
     <Content Include="Lion10.aspx" />
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="AdminPage.aspx.designer.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUsPage.aspx.cs">
+      <DependentUpon>ContactUsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUsPage.aspx.designer.cs">
+      <DependentUpon>ContactUsPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="KidsPage.aspx.cs">
       <DependentUpon>KidsPage.aspx</DependentUpon>
