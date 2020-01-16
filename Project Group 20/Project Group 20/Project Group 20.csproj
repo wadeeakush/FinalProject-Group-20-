@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="AboutUsPage.aspx" />
     <Content Include="AdminPage.aspx" />
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
     <Content Include="ContactUsPage.aspx" />
     <Content Include="dys.jpg" />
     <Content Include="KidsPage.aspx" />
@@ -244,6 +248,7 @@
     </Compile>
     <Compile Include="Lion23.aspx.cs">
       <DependentUpon>Lion23.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Lion23.aspx.designer.cs">
       <DependentUpon>Lion23.aspx</DependentUpon>
@@ -363,6 +368,7 @@
     </Compile>
     <Compile Include="SignUpPageParent.aspx.cs">
       <DependentUpon>SignUpPageParent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SignUpPageParent.aspx.designer.cs">
       <DependentUpon>SignUpPageParent.aspx</DependentUpon>
